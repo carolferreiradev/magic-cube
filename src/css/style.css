@@ -1,0 +1,245 @@
+:root {
+  --bg-primary: #021859;
+  --bg-second: #6b7cac;
+  --text-color-primary: #ffffff;
+  --text-color-secondary: #00040D;
+  --hover: #0CF2DB;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+  align-items: center;
+  overflow: hidden;
+  align-content: center;
+  width: 100vw;
+  background-color: var(--bg-primary);
+  color: var(--text-color-primary);
+  grid-gap: 3rem;
+  padding: 2rem;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header-text a {
+  color: #0CF2DB;
+  font-size: 3rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.header-text a:hover {
+  color: var(--text-color-primary);
+}
+
+.header-image img {
+  background-color: #6b7cac;
+  border-radius: 50%;
+}
+
+.header-text h1 {
+  font-family: 'Bebas Neue';
+  background: linear-gradient(180deg, rgb(12, 27, 242) 0%, rgb(97, 30, 145) 29%, rgba(2, 24, 89, 1) 100%);
+  border-radius: 18px;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.header-text .beMagicCube {
+  font-family: 'Bebas Neue';
+  color: #0CF2DB;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  font-size: 24px;
+  margin-left: 12px;
+}
+
+.colorText {
+  color: #00040D;
+  margin: 2rem 8rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* DESCRIPTIONS */
+
+.titlesBlock {
+  margin: 3rem 0 2rem 0;
+  text-align: center;
+}
+
+h3, .icon-title {
+  font-family: 'Bebas Neue';
+  color: var(--bg-primary);
+  font-size: 4rem;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  background-color: var(--bg-second);
+  padding: 0 5rem;
+}
+
+.description .image {
+  text-align: center;
+}
+
+.description .imageLost {
+  width: 40rem;
+  height: 20rem;
+}
+
+.description img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.description p {
+  color: var(--text-color-primary);
+  letter-spacing: 2px;
+}
+
+/* HOW DO */
+
+.descTitle {
+  margin-bottom: 3rem;
+}
+
+.howDo {
+  padding: 0 5rem;
+}
+
+.howDo ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.howDo li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  color: var(--bg-primary);
+  font-weight: bold;
+  transition: 400ms;
+  text-transform: uppercase;
+}
+
+.howDo li:hover {
+  transform: scale(1.2);
+}
+
+.howDo li i {
+  background-color: var(--hover);
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.grid-toDo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+}
+
+.toDo {
+  transition: 400ms;
+  border: 1px solid var(--bg-primary);
+  border-radius: 12px;
+  padding: 2rem;
+  color: var(--text-color-secondary);
+}
+
+.toDo:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: -6px 8px 32px 6px rgba(12, 242, 219, 0.23);
+  -moz-box-shadow: -6px 8px 32px 6px rgba(12, 242, 219, 0.23);
+  box-shadow: -6px 8px 32px 6px rgba(12, 242, 219, 0.23);
+}
+
+.toDo .title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--bg-primary);
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 3rem;
+  margin-top: 4rem;
+  background: var(--text-color-secondary);
+  color: var(--bg-second);
+}
+
+.socialMedia p {
+  margin-top: 2rem;
+}
+
+.socialMedia, ul li {
+  color: var(--text-color-primary);
+  padding-bottom: 1rem;
+  transition: 400ms;
+}
+
+.list-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.li-footer:hover {
+  color: var(--hover);
+}
+
+ul a li i {
+  margin-right: 0.4rem;
+}
+
+.attribu {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.top {
+  color: var(--bg-second);
+  transition: 400ms;
+  margin-bottom: 2rem;
+}
+
+.top:hover {
+  color: var(--text-color-primary);
+}

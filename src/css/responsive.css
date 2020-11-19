@@ -1,0 +1,218 @@
+@media (min-width: 320px) and (max-width: 599px) {
+  .howDo li:hover, .toDo:hover {
+    transform: none;
+  }
+  ul a li:hover {
+    color: var(--bg-primary);
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+  }
+  .header-text a {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .header-image img {
+    width: 120px;
+    height: 120px;
+  }
+  .header-text h1 {
+    font-size: 2rem;
+    padding: 0.3rem;
+  }
+  .header-text .beMagicCube {
+    font-size: 10px;
+    margin-left: 12px;
+  }
+  /* DESCRIPTIONS */
+  .titlesBlock {
+    margin: 1rem 0 0.5rem 0;
+    text-align: center;
+  }
+  h3, .icon-title {
+    font-size: 1.5rem;
+  }
+  .description {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--bg-second);
+    padding: 0 0.5rem;
+  }
+  .description .imageLost {
+    width: 120px;
+    height: 120px;
+  }
+  .description img {
+    width: 120px;
+    height: 120px;
+  }
+  .description p {
+    font-size: 12px;
+  }
+  /* HOW DO */
+  .descTitle {
+    margin-bottom: 1rem;
+  }
+  .howDo {
+    padding: 0 1rem;
+  }
+  .howDo ul {
+    font-size: 14px;
+  }
+  .howDo li {
+    font-size: 8px;
+  }
+  .grid-toDo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    font-size: 12px;
+  }
+  .toDo {
+    padding: 1rem;
+  }
+  /* FOOTER */
+  .footer {
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+  .socialMedia p {
+    margin-top: 1rem;
+  }
+  ul a li i {
+    margin-right: 0.4rem;
+  }
+  .attribu {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+  .socialMedia, .list-footer {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .howDo li:hover, .toDo:hover {
+    transform: none;
+  }
+  ul a li:hover {
+    color: var(--bg-primary);
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+  }
+  .header-text a {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  .header-image img {
+    width: 240px;
+    height: 240px;
+  }
+  .header-text h1 {
+    font-size: 5rem;
+    padding: 0.3rem;
+  }
+  .header-text .beMagicCube {
+    font-size: 2rem;
+    margin-left: 12px;
+  }
+  /* DESCRIPTIONS */
+  .titlesBlock {
+    margin: 1rem 0 0.5rem 0;
+    text-align: center;
+  }
+  h3, .icon-title {
+    font-size: 3rem;
+  }
+  .description {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--bg-second);
+    padding: 0 1rem;
+  }
+  .description .imageLost {
+    width: 350px;
+    height: 200px;
+  }
+  .description img {
+    width: 200px;
+    height: 200px;
+  }
+  .description p {
+    font-size: 14px;
+  }
+  /* HOW DO */
+  .descTitle {
+    margin-bottom: 1rem;
+  }
+  .howDo {
+    padding: 0 1rem;
+  }
+  .howDo ul {
+    font-size: 14px;
+  }
+  .howDo li {
+    font-size: 12px;
+  }
+  .grid-toDo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    font-size: 14px;
+  }
+  .toDo {
+    padding: 1rem;
+  }
+  /* FOOTER */
+  .footer {
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+  .socialMedia p {
+    margin-top: 1rem;
+  }
+  ul a li i {
+    margin-right: 0.4rem;
+  }
+  .attribu {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+  .socialMedia, .list-footer {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1280px) {
+  /* DESCRIPTIONS */
+  .titlesBlock {
+    margin: 2rem 0 2rem 0;
+  }
+  .description {
+    padding: 0 3rem 2rem 3rem;
+  }
+  .description .imageLost {
+    width: 20rem;
+  }
+  .description img {
+    width: 10rem;
+  }
+  .grid-toDo {
+    grid-gap: 1rem;
+  }
+  .toDo {
+    padding: 1rem;
+  }
+  .toDo .title {
+    margin-bottom: 0.2rem;
+  }
+}
