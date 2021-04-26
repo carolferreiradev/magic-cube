@@ -2,7 +2,7 @@
 
 Trabalhando a resiliencia, resolvendo qualquer cubo mágico nesse desafio chamado vida!
 
--Projeto vencedor Desafio Expansion Week da @rocketseat_oficial
+- Projeto vencedor do Desafio Expansion Week da @rocketseat_oficial
 
 ## Link do site
 
